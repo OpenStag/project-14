@@ -4,8 +4,8 @@ import React from "react";
 
 export default function ContactPage() {
   return (
-    <>
-  
+    <> 
+      <section>
     
         <div className="px-8 py-10 bg-white min-h-screen">
         <div className="text-center mb-8">
@@ -100,6 +100,7 @@ export default function ContactPage() {
         </div>
   
       </div>
+        </section>
    
     </>
   );
