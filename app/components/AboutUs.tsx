@@ -4,7 +4,7 @@ import AboutImg from '../images/about-img.jpg';
 
 const AboutUs = () => {
   return (
-    <section className="about py-16 px-4 md:px-6" >
+    <section className="about py-16 px-4 md:px-6 bg-white" >
       <div className="w-full max-w-7xl mx-auto">
         <h2
           className="text-black text-4xl md:text-6xl font-extrabold text-center leading-tight mb-16"
