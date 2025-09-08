@@ -31,18 +31,18 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="w-full bg-white flex flex-col justify-center py-8">
+    <section className="w-full bg-white flex flex-col justify-center">
       <div className="mx-auto px-4">
         {/* Heading */}
-        <div className="text-center max-w-xl mx-auto mb-10">
+        <div className="text-center max-w-xl mx-auto">
           <h1 className="text-3xl md:text-4xl font-extrabold text-black">
            Reviews
           </h1>
           
         </div>
-
+        <div className="flex justify-center items-center py-15">
         {/* Testimonials Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full max-w-7xl">
           {testimonials.map((review, index) => (
             <div
               key={index}
@@ -72,6 +72,7 @@ export default function Testimonials() {
 
             </div>
           ))}
+        </div>
         </div>
       </div>
     </section>
